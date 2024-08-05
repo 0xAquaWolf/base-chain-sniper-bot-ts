@@ -1,0 +1,19 @@
+{
+  "name": "base-chain-scanner-ts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "sim-start": "bun sim_bot.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "bun",
+            "request": "launch",
+            "name": "Debug Bun",
+            "program": "${workspaceFolder}/sim_bot.ts",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "BUN_RUNTIME": "1"
+            },
+            "watchMode": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
