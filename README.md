@@ -165,13 +165,16 @@ _For more examples, please refer to the [wiki](https://github.com/0xAquaWolf/bas
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] setup project
+- [x] setup project
 	- [x] open sourced it
 	- [x] create a readme 
 	- [x] added a license
 	- [x] create a logo
 	- [x] create basic folder structure for project
-	- [ ] add drizzle support for postgreSQL
+	- [x] add drizzle support for postgreSQL
+  	- [x] add drizzle support for postgreSQL
+		- [x] setup drizzle kit
+		- [x] introspected the current database scheme
 - [ ] Create the blockchain scanner for all events
 	- [ ] New token event
 	- [ ] addLiquidityETH
