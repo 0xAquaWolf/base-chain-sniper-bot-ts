@@ -12,10 +12,16 @@
 -->
 
 <!-- [![Contributors][contributors-shield]][contributors-url] -->
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
+<div align="center">
+
+<!-- PROJECT SHIELDS -->
+<img src="https://img.shields.io/github/forks/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge" alt="Forks">
+<img src="https://img.shields.io/github/stars/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge" alt="Stars">
+<img src="https://img.shields.io/github/issues/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge" alt="Issues">
+<img src="https://img.shields.io/github/license/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge" alt="License">
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -27,7 +33,7 @@
   <h3 align="center">Web3 Base Chain Sniper Bot</h3>
 
   <p align="center">
-    Filter out the garbage. Find the gems 💎. Land on the moon 🚀
+    Filter out the garbage♻️. Find the gems 💎. Land on the moon 🚀
     <br />
     <!-- <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
     <br />
@@ -244,13 +250,3 @@ These are all of the documentations to the packages that are being used in this 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-<!-- [contributors-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/graphs/contributors -->
-[forks-shield]: https://img.shields.io/github/forks/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge
-[forks-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/network/members
-[stars-shield]: https://img.shields.io/github/stars/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge
-[stars-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/stargazers
-[issues-shield]: https://img.shields.io/github/issues/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge
-[issues-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/issues
-[license-shield]: https://img.shields.io/github/license/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge
-[license-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/blob/master/LICENSE.txt
