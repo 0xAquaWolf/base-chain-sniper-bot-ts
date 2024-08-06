@@ -168,7 +168,7 @@ _For more examples, please refer to the [wiki](https://github.com/0xAquaWolf/bas
 	- [x] open sourced it
 	- [x] create a readme 
 	- [x] added a license
-	- [ ] create a logo
+	- [x] create a logo
 	- [ ] create basic folder structure for project
 	- [ ] add drizzle support for postgreSQL
 - [ ] Create the blockchain scanner for all events
@@ -176,8 +176,11 @@ _For more examples, please refer to the [wiki](https://github.com/0xAquaWolf/bas
 	- [ ] addLiquidityETH
 	- [ ] removeLiquidityETH
 - [ ] Save events to the db (postgreSQL)
-- [ ] listen to events
+- [ ] listen db to events
 	- [ ] send events to discord
+        - [ ] add new token events
+        - [ ] addLiqudiityETH
+        - [ ] removeLiqudiityETH
 - [ ] add a 30 sec demo bootstraping the project and it scanning the network
 
 See the [open issues](https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/issues) for a full list of proposed features (and known issues).
