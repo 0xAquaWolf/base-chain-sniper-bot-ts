@@ -1,13 +1,5 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/ -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 
 
 <!-- PROJECT SHIELDS -->
@@ -19,6 +11,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -245,3 +242,15 @@ These are all of the documentations to the packages that are being used in this 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+<!-- [contributors-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/graphs/contributors -->
+[forks-shield]: https://img.shields.io/github/forks/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge
+[forks-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/network/members
+[stars-shield]: https://img.shields.io/github/stars/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge
+[stars-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/stargazers
+[issues-shield]: https://img.shields.io/github/issues/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge
+[issues-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/issues
+[license-shield]: https://img.shields.io/github/license/0xAquaWolf/base-chain-sniper-bot-ts.svg?style=for-the-badge
+[license-url]: https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/blob/master/LICENSE.txt
