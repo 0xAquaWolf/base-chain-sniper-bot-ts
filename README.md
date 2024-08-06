@@ -135,6 +135,7 @@ To get a local copy up and running, follow these steps:
    bun install
    ```
 4. Enter your API in `.env`
+  - `.env` needs to be placed inside of `src/.env`
    ```bash
     DISCORD_BOT_TOKEN="" # Slash Commands Discord bot
     BASE_TOKEN_SNIFFER="" # Discord Bot for blockchain notifications
@@ -169,7 +170,7 @@ _For more examples, please refer to the [wiki](https://github.com/0xAquaWolf/bas
 	- [x] create a readme 
 	- [x] added a license
 	- [x] create a logo
-	- [ ] create basic folder structure for project
+	- [x] create basic folder structure for project
 	- [ ] add drizzle support for postgreSQL
 - [ ] Create the blockchain scanner for all events
 	- [ ] New token event
