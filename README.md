@@ -33,10 +33,16 @@
   <h3 align="center">Web3 Base Chain Sniper Bot</h3>
 
   <p align="center">
-    Filter out the garbage♻️. Find the gems 💎. Land on the moon 🚀
-    <br />
-    <!-- <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
-    <br />
+    <div>
+    Filter out the garbage♻️. 
+    </div>
+    <div>
+    Find the gems 💎. 
+    </div>
+    <div>
+    Land on the moon 🚀
+    </div>
+    <!-- <a href="https://github.com/0xAquaWolf/wiki"><strong>Explore the Wiki »</strong></a> -->
     <br />
     <a href="">View Demo</a>
     ·
@@ -83,22 +89,6 @@
 
 ![product-screenshot](images/screenshot.png)
 
-Creating this project live on stream: https://www.youtube.com/@0xAquaWolf
-
-I have always dreamed about finding a infinite money glitch, making money passivly while i'm sleeping, its one of the reasons i learned how to code. 
-
-This project endevours to accomplish this goal. If you resonate with that you can contribute to if you would like.
-
-Here's why:
-* I believe that Base Chain (built by Coinbase) will on board and increase user adoption with the Web3 space because they have 115 MAU and they have already onboarded 11.3 Million users
-https://tokenterminal.com/terminal/projects/base (MAU)
-
-![Product Name Screen Shot](https://pbs.twimg.com/media/GRuvMo7WgAA5Zfa?format=jpg&name=medium)
-* I see code as leverage, we can deploy bots and run code in the cloud while we are sleeping.
-* If you know how to code you should be able to make money with your code directly not relying on 3rd parties like customer and dealing with customer support while building a product
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 <div align="center">
@@ -112,7 +102,26 @@ https://tokenterminal.com/terminal/projects/base (MAU)
 
 </div>
 
+#### Watch me build in public live
+
+Daily live on streams on YouTube: https://www.youtube.com/@0xAquaWolf
+
+
+I have always dreamed about finding a infinite money glitch, making money passivly while i'm sleeping, its one of the reasons i learned how to code. 
+
+This project endevours to accomplish this goal. If you resonate with that you can contribute to if you would like.
+
+#### Why i believe in Base Chain 
+
+Here's why:
+* I believe that Base Chain (built by Coinbase) will on board and increase user adoption with the Web3 space because they have 115 MAU and they have already onboarded 11.3 Million users
+https://tokenterminal.com/terminal/projects/base (MAU)
+
+![Product Name Screen Shot](https://pbs.twimg.com/media/GRuvMo7WgAA5Zfa?format=jpg&name=medium)
+* I see code as leverage, we can deploy bots and run code in the cloud while we are sleeping and potentialy make money from that code
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -141,7 +150,7 @@ To get a local copy up and running, follow these steps:
    ```sh
    bun install
    ```
-4. Enter your API in `.env`
+4. Enter your APIs & DB Creds inside `.env`
   - `.env` needs to be placed inside of `src/.env`
    ```bash
     DISCORD_BOT_TOKEN="" # Slash Commands Discord bot
@@ -164,9 +173,6 @@ To get a local copy up and running, follow these steps:
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [wiki](https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/wiki)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
@@ -223,8 +229,6 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 
@@ -233,8 +237,6 @@ Twitter - [@0xAquaWolf](https://x.com/0xAquaWolf)
 Youtube - [@0xAquaWolf](https://www.youtube.com/@0xAquaWolf)
 
 Email - [aquawolf369](mailto:aquawolf369@gmail.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
