@@ -3,17 +3,24 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "sim-start": "bun sim_bot.ts"
+    "sim-start": "bun sim_bot.ts",
+    "dev": "bun run src/index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/node": "^22.1.0"
+    "@types/node": "^22.1.0",
+    "bun-types": "^1.1.21",
+    "drizzle-kit": "^0.23.2",
+    "ethers-typescript-typings": "^0.0.4"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.32.2",
+    "ethers": "^6.13.2",
+    "postgres": "^3.4.4"
   }
 }
