@@ -151,11 +151,11 @@ To get a local copy up and running, follow these steps:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage (coming soon)
-
+## Usage
+*(coming soon)
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [wwntation](https://example.com)_
+_For more examples, please refer to the [wiki](https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/wiki)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,12 +210,13 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@0xAquaWolf](https://x.com/0xAquaWolf) - 
+Twitter - [@0xAquaWolf](https://x.com/0xAquaWolf)
+
+Youtube - [@0xAquaWolf](https://www.youtube.com/@0xAquaWolf)
+
 Email - [aquawolf369](mailto:aquawolf369@gmail.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
