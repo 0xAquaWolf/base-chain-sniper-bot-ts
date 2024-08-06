@@ -101,12 +101,16 @@ https://tokenterminal.com/terminal/projects/base (MAU)
 
 ### Built With
 
-* ![Bun](https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white)
-* ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535a0?style=for-the-badge&logo=ethereum&logoColor=white)
-* ![Discord.js](https://img.shields.io/badge/Discord.js-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)
-* ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-* ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-* ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-00A95C?style=for-the-badge&logo=drizzle&logoColor=white)
+<div align="center">
+
+<img src="https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white" alt="Bun">
+<img src="https://img.shields.io/badge/Ethers.js-2535a0?style=for-the-badge&logo=ethereum&logoColor=white" alt="Ethers.js">
+<img src="https://img.shields.io/badge/Discord.js-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord.js">
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Drizzle_ORM-00A95C?style=for-the-badge&logo=drizzle&logoColor=white" alt="Drizzle ORM">
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
