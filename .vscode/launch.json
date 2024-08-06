@@ -5,8 +5,8 @@
             "type": "bun",
             "request": "launch",
             "name": "Debug Bun",
-            "program": "${workspaceFolder}/sim_bot.ts",
-            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/src/index.ts",
+            "cwd": "${workspaceFolder}/src",
             "env": {
                 "BUN_RUNTIME": "1"
             },
