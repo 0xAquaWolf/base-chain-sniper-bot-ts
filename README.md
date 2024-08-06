@@ -178,6 +178,7 @@ _For more examples, please refer to the [wiki](https://github.com/0xAquaWolf/bas
 - [ ] Save events to the db (postgreSQL)
 - [ ] listen to events
 	- [ ] send events to discord
+- [ ] add a 30 sec demo bootstraping the project and it scanning the network
 
 See the [open issues](https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/issues) for a full list of proposed features (and known issues).
 
