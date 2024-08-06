@@ -12,4 +12,4 @@ export const listenToEvents = (callback: (event: any) => void) => {
     // Here you would typically query for specific events in this block
     // and call the callback with relevant event data
   });
-};
+}
