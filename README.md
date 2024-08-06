@@ -107,7 +107,7 @@
 Daily live on streams on YouTube: https://www.youtube.com/@0xAquaWolf
 
 
-I have always dreamed about finding a infinite money glitch, making money ppassively while i'm sleeping, its one of the reasons i learned how to code. 
+I have always dreamed about finding a infinite money glitch, making money passively while i'm sleeping, its one of the reasons i learned how to code. 
 
 This project endevours to accomplish this goal. If you resonate with that you can contribute to if you would like.
 
