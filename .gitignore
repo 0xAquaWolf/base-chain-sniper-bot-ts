@@ -117,3 +117,6 @@ Thumbs.db
 .yarn/install-state.gz
 .pnp.*
 src/drizzle-examples
+old-src/drizzle-examples
+old-src
+src
