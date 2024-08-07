@@ -4,9 +4,21 @@
         {
             "type": "bun",
             "request": "launch",
-            "name": "Debug Bun",
-            "program": "${workspaceFolder}/src/index.ts",
-            "cwd": "${workspaceFolder}/src",
+            "name": "Debug Current File",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "env": {
+                "BUN_RUNTIME": "1"
+            },
+            "watchMode": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "bun",
+            "request": "launch",
+            "name": "Debug index.ts",
+            "program": "${workspaceFolder}/index.ts",
+            "cwd": "${workspaceFolder}",
             "env": {
                 "BUN_RUNTIME": "1"
             },
