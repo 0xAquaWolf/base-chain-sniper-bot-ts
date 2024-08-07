@@ -136,7 +136,14 @@ To get a local copy up and running, follow these steps:
   ```sh
   curl -fsSL https://bun.sh/install | bash
   ```
-
+* set up postgreSQL with the following creds and make sure to add them to your `.env`
+```bash
+DB_HOST="localhost"
+DB_PORT="5432"
+DB_USER="aquawolf" # change to YOUR os username
+DB_PASSWORD=""
+DB_NAME="base_chain_scanner"
+```
 ### Installation
 
 
@@ -159,21 +166,15 @@ To get a local copy up and running, follow these steps:
     STAGING_CHANNEL_ID="" # copy from discord server
     DEBUG="true | false"
     CUSTOM_START_BLOCK="123512352" # for debuging from a block
-    DB_HOST="localhost"
-    DB_PORT="2341"
-    DB_USER="default"
-    DB_PASSWORD=""
-    DB_NAME="database_name"
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-*(coming soon)
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [wiki](https://github.com/0xAquaWolf/base-chain-sniper-bot-ts/wiki)_
+1. `bun install`
 
+2. `bun run dev`
 
 <!-- ROADMAP -->
 ## Roadmap
