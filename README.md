@@ -158,7 +158,7 @@ DB_NAME="base_chain_scanner"
    bun install
    ```
 4. Enter your APIs & DB Creds inside `.env`
-  - `.env` needs to be placed inside of `src/.env`
+  - `.env` needs to be placed inside of `./.env`
    ```bash
     DISCORD_BOT_TOKEN="" # Slash Commands Discord bot
     BASE_TOKEN_SNIFFER="" # Discord Bot for blockchain notifications
