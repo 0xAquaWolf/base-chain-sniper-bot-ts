@@ -3,12 +3,11 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "sim-start": "bun sim_bot.ts",
-    "dev": "bun run src/index.ts",
+    "dev": "bun run index.js",
     "db:studio": "drizzle-kit studio --verbose",
-    "db:generate": "drizzle-kit generate: --schema ./src/drizzle/schema.ts",
+    "db:generate": "drizzle-kit generate: --schema ./drizzle/schema.ts",
     "db:migrate": "bun ./src/database/migreate.ts",
-    "db:prod:migrate": "NODE_ENV=production bun ./src/drizzle/migrations.ts",
+    "db:prod:migrate": "NODE_ENV=production bun ./drizzle/migrations.ts",
     "db:push": "bun db:generate && bun db:migrate",
     "db:fs": "bun db:reset && bun db:seed",
     "db:drop": "drizzle-kit drop"
@@ -27,7 +26,7 @@
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.32.2",
-    "ethers": "^6.13.2",
+    "ethers": "5",
     "postgres": "^3.4.4"
   }
 }
