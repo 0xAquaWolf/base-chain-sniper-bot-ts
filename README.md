@@ -131,6 +131,7 @@ https://tokenterminal.com/terminal/projects/base (MAU)
 To get a local copy up and running, follow these steps:
 
 ### Prerequisites
+* local postgreSQL instance
 
 * Install Bun (a fast JavaScript runtime and package manager)
   ```sh
