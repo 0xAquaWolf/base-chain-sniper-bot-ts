@@ -1,3 +1,10 @@
+/*
+  filter out the tokens
+  - look for locked liquidity
+    - a LP Locker
+    - Dead address -> compile a list of all known dead addresses
+*/
+
 import { ethers } from 'ethers';
 import { env } from './env.js';
 import { getContractAddresses } from './contractAddresses.ts';
@@ -87,8 +94,6 @@ function convertBigNumberToFormattedNumbers(bigNumber, decimals = 18) {
 =========================================
 = Debugging
 =========================================
-*/
-
 const latestBlock = await provider.getBlockNumber()
 console.log({latestBlock})
 
@@ -149,21 +154,17 @@ const allEvents = events.map(async(event) => {
     console.log("====== Inserted New Token into the database ======")
     console.log(insertNewToken)
 })
-
-/*
-
-fix deployer address
-fix deployerTXHash
-fix totalSupplyWithCommas
-
 */
 
 /*
 =========================================
-= Start Script
+============ Start Script ===============
 =========================================
 */
+
 /*
+*/
+
 try {
     console.log("BASE CHAIN SCANNER HAS STARTED 🚀🚀🚀")
 
@@ -188,30 +189,32 @@ ${basescanLink(newTokenAddress)}
 ================================        
         `)
 
-      const decimals = await newERC20Token.decimals()
-      const bigInittotalSupply = await newERC20Token.totalSupply()
-      const totalSupply = convertBigNumberToFormattedNumbers(bigInittotalSupply, decimals)
-
+    const decimals = await newERC20Token.decimals()
+    const bigInittotalSupply = await newERC20Token.totalSupply()
+    const totalSupply = convertBigNumberToFormattedNumbers(bigInittotalSupply, decimals)
+    
       const tokenInfo = {
         address: newTokenAddress,
         name: await newERC20Token.name(),
         symbol: await newERC20Token.symbol(),
         decimals,
+        deployerAddress: deployerAddy,
         totalSupply: totalSupply.withoutCommas,
         totalSupplyWithCommas: totalSupply.withCommas, // add to schema
         deployerTxHash: basescanTxLink(deployerTxHash),
         basescanTokenUrl: basescanLink(newTokenAddress),
-        basescanDeployerUrl: basescanLink(deployerAddress),
+        basescanDeployerUrl: basescanLink(deployerAddy),
         dexScreenerUrl: dexscreenerLink(newTokenAddress)
       }
 
-      // TODO: save to the database
+    console.log({tokenInfo})
 
-      console.log({tokenInfo})
+    const [ insertNewToken ] = await db.insert(tokens).values(tokenInfo).returning()
+    console.log("====== Inserted New Token into the database ======")
+    console.log(insertNewToken)
 
       });
+
 } catch (error) {
     console.error({error})    
 }
-
-*/
